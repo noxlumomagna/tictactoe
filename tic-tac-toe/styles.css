@@ -1,0 +1,53 @@
+#board {
+    width:590px;
+    min-height: 550px;
+    border-radius:10%;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: auto;
+}
+
+h1{
+    padding-top: 15px;
+}
+
+h2{
+    margin: 8px;
+}
+
+table{
+    margin: auto;
+    border-spacing: 8px;
+}
+
+button {
+    font-weight: bold;
+    border-radius:8px;
+    cursor: pointer;
+    background-color: red;
+    border-color: purple;
+    color: white;
+}
+
+.game-square{
+    font-size: 120px;
+    width: 170px;
+    height: 170px;
+    vertical-align: top;
+}
+
+.game-square:disabled{
+    cursor:default;
+}
+
+#restart-button{
+    /* display:none; */
+    font-size: 24px;
+    padding: 12px;
+    margin: 12px auto;
+}
+
+@media-query{
+}
